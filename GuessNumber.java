@@ -1,5 +1,5 @@
 import java.util.*; 
-public class test {
+public class  {
 	
 	public static void main(String[] args){
 
@@ -7,23 +7,23 @@ public class test {
 	Random random = new Random();
 	int realNumber = random.nextInt(100)+1;
 
-	System.out.println("ÇëÊäÈëÒ»¸ö1-100µÄÕûÊı£º");
+	System.out.println("è¯·è¾“å…¥ä¸€ä¸ª1-100çš„æ•´æ•°ï¼š");
 	int i = 0;
 	Scanner reader = new Scanner(System.in);{
 	i= reader.nextInt();
 	while(i != realNumber) 
 	if(i < realNumber) {
-		System.out.println("²ÂĞ¡ÁË");
+		System.out.println("çŒœå°äº†");
 		i= reader.nextInt();
 	}
 	else if(i > realNumber) {
-		System.out.println("²Â´óÁË");
+		System.out.println("çŒœå¤§äº†");
 		i= reader.nextInt();
 	}
 	else {
 		break;
 	}
-	System.out.println("²Â¶ÔÁË");
+	System.out.println("çŒœå¯¹äº†");
 	}
 	}
 }
